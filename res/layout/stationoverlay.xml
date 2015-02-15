@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" 
+    xmlns:android1="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android1:layout_width="match_parent"
+            android1:layout_height="match_parent"
+            android1:orientation="vertical" >
+
+            <TextView
+                android1:id="@+id/station_info"
+                android1:layout_width="wrap_content"
+                android1:layout_height="match_parent"
+                android1:textSize="14pt"
+                android1:textStyle="bold"
+				android1:background="@drawable/roundedbox"
+                android1:textColor="#000000" />
+
+            <ImageView
+                android1:id="@+id/imageView1"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:contentDescription="pin_icon"
+                android1:src="@drawable/station_marker" 
+                android1:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+</FrameLayout>

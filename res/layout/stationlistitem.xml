@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip">
+    
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="fill_parent">
+
+
+                         <ImageButton
+                    android:id="@+id/favoritebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+					android:layout_gravity="left"
+					android:layout_weight="1"
+                    android:src="@drawable/favoriteicon_notselected" 
+                    android:contentDescription="favorite"
+
+                    android:background="@null" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="85"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/toptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:ellipsize="none"
+			android:maxLines="100"
+            android:gravity="center_vertical"
+        />
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:id="@+id/middletext"
+            android:ellipsize="none"
+            android:maxLines="100"
+        />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:contentDescription="bike icon"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/velo_map" />
+
+                    <TextView
+                        android:id="@+id/bikesText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Medium Text"
+                        android:gravity="center_vertical"
+                        android:padding="6dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="stand icon"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/borne_map" />
+
+                    <TextView
+                        android:id="@+id/standsText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Medium Text"
+                        android:layout_gravity="center_vertical"
+                        android:padding="6dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+                <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="none"
+            android:maxLines="100"
+
+            />
+           </LinearLayout>
+        
+            <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        
+                                <ImageButton
+                    android:id="@+id/updateBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/refreshicon" android:contentDescription="refresh stations"
+                    android:background="@null"
+                    />
+                
+                        <ImageButton
+                            android:id="@+id/viewbtn"
+                        android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/viewinmapicon" android:contentDescription="view in map"
+                    android:background="@null"
+                             />
+                        
+                        </LinearLayout>
+        
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

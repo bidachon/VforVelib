@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, VforVelibActivity!</string>
+    <string name="app_name">VforVelib</string>
+    <string name="VelibUrl">http://www.velib.paris.fr/service/carto</string>
+    <string name="StationUrl">http://www.velib.paris.fr/service/stationdetails/paris/</string>
+    <color name="black">#000</color>
+    <string name="FavDataFile">favorites.dat</string>
+
+</resources>
